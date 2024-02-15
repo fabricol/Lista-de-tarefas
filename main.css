@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color:#008F7A;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    border-bottom: solid 10px #008E9B;
+    color: #fff;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+body {
+    background-color:#C4FCEF;
+    text-align: center;
+}
+
+button, input {
+    padding:4px;
+    
+}
+
+button {
+    background-color: #279209;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer ;
+}
+
+form {
+    display: none;
+    background-color: #fff;
+    padding: 24px 0;
+}
+
+#botaoInutil {
+    background-color: #936F5B ;
+}
+
+#botaoReset {
+    background-color:#F21212;
+    
+}
+
+input {
+    width: 300px;
+}
+
+ul {
+    text-align: start;
+}
+
+ul li {
+    margin-left: 60px;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    opacity: 0.6;
+
+}
+
+.checkbox-tarefa {
+    width: 50px;
+}
+
+
+
+ul li:hover {
+    opacity:1;
+
+}
+
+ul li.checked {
+    text-decoration: line-through;
+
+}
