@@ -18,7 +18,6 @@ $(document).ready(function() {
 
     $('ul').on('change', '.checkbox-tarefa', function() {
         const li = $(this).closest('li');
-        const span = li.find('.tarefa');
-        span.toggleClass('checked');
+        li.toggleClass('checked');
     });
 });
