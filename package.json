@@ -1,0 +1,15 @@
+{
+  "name": "pratique17",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "less": "less-watch-compiler C:\\git\\Modulo17\\Pratique17\\src\\styles C:\\git\\Modulo17\\Pratique17\\build main.less",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.2.0"
+  }
+}
